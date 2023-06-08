@@ -11,23 +11,14 @@
   <title>Frontend Mentor | Interactive rating component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
 
   <!-- Rating state start -->
   <main>
-    <div class="body">
+    <div class="page" id="initial">
       <h1> How did we do?</h1>
 
       <p> Please let us know how we did with your support request. All feedback is appreciated
@@ -38,11 +29,11 @@
       <button class="rate"> 3 </button>
       <button class="rate"> 4 </button>
       <button class="rate"> 5 </button>
-      <br>
       <button id="button" onclick="submit-btn()"> Submit</button>
 
       <!-- Rating state end -->
-
+    </div>
+    <div class="page" id="final">
       <!-- Thank you state start -->
 
       You selected <!-- Add rating here --> out of 5
@@ -54,7 +45,7 @@
 
       <!-- Thank you state end -->
     </div>
-
+  </main>
 
 </body>
 
