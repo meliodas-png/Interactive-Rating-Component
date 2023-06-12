@@ -24,11 +24,32 @@ main {
 }
 #initial {
     z-index: 1;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 #final {
     z-index: 0;
 }
 .rate {
     border-radius: 50%;
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(213, 19%, 18%);
+    border: none;
+    width: 45px;
+    height: 45px;
+}
+#ratings {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#button {
+    height: 2rem;
+    width: 200px;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 10%;
+    color: white;
+    border: none;
+margin: 1rem;
 }
